@@ -1,7 +1,7 @@
 :root {
   /* variables */
   --cg-black: rgb(30, 32, 32);
-  --cg-blue: rgb(36, 94, 255);
+  --cg-blue: rgb(30, 144, 255); /* Changed to a bright blue */
   --cg-grey: rgb(243, 243, 243);
   --cg-white: rgb(255, 255, 255);
 }
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: lightblue;
+  background: rgb(240, 248, 255); /* Changed to a light, airy blue */
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -34,7 +34,7 @@ body {
   align-items: center;
   text-align: center;
 
-  background-color: rgb(84, 110, 255);
+  background-color: rgb(0, 51, 102); /* Changed to a deep indigo-blue */
   color: var(--cg-white);
   padding: 0px 0px;
 
@@ -151,7 +151,8 @@ main {
 }
 
 .project-details a:hover {
-  color: var(--cg-blue);
+  color: rgb(30, 144, 255); /* Lightened to maintain consistency with the blue theme */
+
   text-decoration: underline;
 }
 
@@ -171,8 +172,8 @@ main {
   align-items: center;
   justify-content: space-evenly;
   padding: 20px;
-  background-color: #f8f8f8;
-  border: 3px solid rgb(84, 110, 255);
+  background-color: #e6f0ff; /* Changed to a very light blue */
+  border: 3px solid rgb(30, 144, 255); /* Changed to new blue color */
   border-radius: 5px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
@@ -180,7 +181,7 @@ main {
 .about-image img {
   max-width: 500px;
   border-radius: 10px;
-  border: 3px solid rgb(84, 110, 255);
+  border: 3px solid rgb(30, 144, 255); /* Changed to new blue color */
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
@@ -215,7 +216,7 @@ main {
 }
 
 .button:hover {
-  background-color: var(--cg-blue);
+  background-color: rgb(30, 144, 255); /* Changed to match the new theme */
 }
 
 .resume h2 {
@@ -255,7 +256,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(84, 110, 255);
+  background-color: rgb(0, 51, 102); /* Changed to match the navbar */
   color: var(--cg-white);
   position: absolute;
   bottom: 0;
